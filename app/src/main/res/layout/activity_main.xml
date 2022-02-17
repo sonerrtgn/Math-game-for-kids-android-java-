@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/top_cik"
+        android:layout_width="236dp"
+        android:layout_height="95dp"
+        android:text="TOPLAMA-ÇIKARMA"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#595353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <Button
+        android:id="@+id/bol"
+        android:layout_width="236dp"
+        android:layout_height="95dp"
+        android:text="BÖLME"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#595353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.762" />
+
+    <Button
+        android:id="@+id/carp"
+        android:layout_width="236dp"
+        android:layout_height="95dp"
+        android:text="ÇARPMA"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:backgroundTint="#595353"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <TextView
+        android:id="@+id/giris_yazi"
+        android:layout_width="227dp"
+        android:layout_height="74dp"
+        android:text="ÇOCUKLAR İÇİN \n     MATEMATİK"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SONER TUĞAN TARAFINDAN \n                 GELİŞTİRİLDİ"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

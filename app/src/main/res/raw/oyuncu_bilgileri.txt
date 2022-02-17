@@ -1,0 +1,3 @@
+top_cikarma_level: 0
+bolme_seviye: 0
+carpma_seviye: 0

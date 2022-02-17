@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toplama_seviyeleri">
+
+    <TextView
+        android:id="@+id/toplama_cikarma_yazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOPLAMA - ÇIKARMA"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <ImageButton
+        android:id="@+id/seviye_2"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_3"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_1"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_9"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_8"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_6"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_5"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_7"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654"
+        app:srcCompat="@drawable/seviye" />
+
+    <ImageButton
+        android:id="@+id/seviye_4"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        app:srcCompat="@drawable/seviye" />
+    <Button
+        android:id="@+id/geri_git"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GERİ GİT"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87" />
+</androidx.constraintlayout.widget.ConstraintLayout>
